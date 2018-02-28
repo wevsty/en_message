@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_UI</class>
+ <widget class="QMainWindow" name="MainWindow_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>en_message</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontal_Layout_mode">
+      <item>
+       <widget class="QRadioButton" name="radio_is_aes256ecb">
+        <property name="text">
+         <string>AES-256-ECB</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radio_is_aes256cfb">
+        <property name="text">
+         <string>AES-256-CFB</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontal_Layout_password_options">
+      <item>
+       <widget class="QLineEdit" name="password_text">
+        <property name="minimumSize">
+         <size>
+          <width>32</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>password</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Normal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_load">
+        <property name="text">
+         <string>load</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_save">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_SHA256">
+        <property name="text">
+         <string>SHA256</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="encrypt_text"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizonta_Layout_input_button">
+      <item>
+       <widget class="QPushButton" name="Button_copy">
+        <property name="text">
+         <string>copy</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_paste">
+        <property name="text">
+         <string>paste</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_clear">
+        <property name="text">
+         <string>clear</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_up">
+        <property name="text">
+         <string>up</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_encrypt_button">
+      <item>
+       <widget class="QPushButton" name="Button_encrypt">
+        <property name="text">
+         <string>encrypt</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Button_decrypt">
+        <property name="text">
+         <string>decrypt</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="decrypt_text">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Button_copy_decrypted">
+      <property name="text">
+       <string>copy</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>radio_is_aes256ecb</tabstop>
+  <tabstop>radio_is_aes256cfb</tabstop>
+  <tabstop>password_text</tabstop>
+  <tabstop>Button_load</tabstop>
+  <tabstop>Button_save</tabstop>
+  <tabstop>Button_SHA256</tabstop>
+  <tabstop>encrypt_text</tabstop>
+  <tabstop>Button_copy</tabstop>
+  <tabstop>Button_paste</tabstop>
+  <tabstop>Button_clear</tabstop>
+  <tabstop>Button_up</tabstop>
+  <tabstop>Button_encrypt</tabstop>
+  <tabstop>Button_decrypt</tabstop>
+  <tabstop>decrypt_text</tabstop>
+  <tabstop>Button_copy_decrypted</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
