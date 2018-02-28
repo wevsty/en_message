@@ -2,9 +2,9 @@
 
 #ifdef _MSC_VER
 typedef unsigned char byte;
-#pragma  warning(push) 
+#pragma  warning(push)
 #pragma  warning(disable:4251 4275 4101)
-#include <cryptopp/dll.h>
+#include "cryptopp_dll_init.h"
 #endif
 
 #include <cryptopp/filters.h>
@@ -14,14 +14,15 @@ typedef unsigned char byte;
 
 std::string calc_SHA256(std::string raw_data)
 {
-  CryptoPP::SHA256 sha256;
-  std::string hash = "";
-  CryptoPP::StringSource(raw_data
-                         , true
-                         , new CryptoPP::HashFilter(sha256, new CryptoPP::HexEncoder(new CryptoPP::StringSink(hash))));
-  return hash;
+	CryptoPP::SHA256 sha256;
+	std::string hash;
+	CryptoPP::StringSource(raw_data
+		, true
+		, new CryptoPP::HashFilter(sha256,
+			new CryptoPP::HexEncoder(new CryptoPP::StringSink(hash))));
+	return hash;
 }
 
 #ifdef _MSC_VER
-#pragma  warning(  pop  ) 
+#pragma  warning(  pop  )
 #endif

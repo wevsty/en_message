@@ -11,10 +11,10 @@
 class std_rand
 {
 public:
-    unsigned int n_rand_seed;
-    std_rand();
-    int rand_int();
-    std::string rand_std_string(int maxlen = 8);
+	unsigned int n_rand_seed;
+	std_rand();
+	int rand_int();
+	std::string rand_std_string(int maxlen = 8);
 
 };
 
