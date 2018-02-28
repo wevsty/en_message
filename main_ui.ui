@@ -24,6 +24,13 @@
     <item>
      <layout class="QHBoxLayout" name="horizontal_Layout_mode">
       <item>
+       <widget class="QLabel" name="encrypt_mode_label">
+        <property name="text">
+         <string>Encrypt Mode</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QRadioButton" name="radio_is_aes256ecb">
         <property name="text">
          <string>AES-256-ECB</string>
@@ -58,7 +65,7 @@
         <property name="minimumSize">
          <size>
           <width>32</width>
-          <height>0</height>
+          <height>28</height>
          </size>
         </property>
         <property name="text">
@@ -167,7 +174,7 @@
      <x>0</x>
      <y>0</y>
      <width>801</width>
-     <height>30</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
