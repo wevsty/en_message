@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/gui">
+        <file>resources/image/icon.svg</file>
+    </qresource>
+</RCC>

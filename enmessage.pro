@@ -25,19 +25,32 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    encrypt_str.cpp \
-    main_ui.cpp \
-    hash_str.cpp \
-    std_rand.cpp
+    std_rand.cpp \
+    cryptopp_ecdh_algorithm.cpp \
+    gui_key_exchange_wizard.cpp \
+    gui_main.cpp \
+    os_clipboard.cpp \
+    cryptopp_aes_algorithm.cpp \
+    cryptopp_hash_algorithm.cpp \
+    qt_keyfile.cpp \
+    cryptopp_encoder.cpp \
+    qt_gen_filedialog.cpp
 
 HEADERS += \
-    encrypt_str.h \
-    main_ui.h \
-    hash_str.h \
-    std_rand.h
+    std_rand.h \
+    cryptopp_ecdh_algorithm.h \
+    gui_key_exchange_wizard.h \
+    gui_main.h \
+    os_clipboard.h \
+    cryptopp_aes_algorithm.h \
+    cryptopp_hash_algorithm.h \
+    qt_keyfile.h \
+    cryptopp_encoder.h \
+    qt_gen_filedialog.h
 
 FORMS += \
-    main_ui.ui
+    gui_main.ui \
+    gui_key_exchange_wizard.ui
 
 LIBS += -lcryptopp
 
@@ -46,4 +59,7 @@ TRANSLATIONS += enmessage.ts
 #DISTFILES += \
 #    enmessage.ts
 
-CONFIG += c++11
+CONFIG += c++17
+
+RESOURCES += \
+    gui_resource.qrc

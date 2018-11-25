@@ -1,4 +1,4 @@
-﻿#include "main_ui.h"
+﻿#include "gui_main.h"
 #include <QApplication>
 
 //QDesktopWidget

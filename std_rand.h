@@ -11,11 +11,17 @@
 class std_rand
 {
 public:
-	unsigned int n_rand_seed;
-	std_rand();
-	int rand_int();
-	std::string rand_std_string(int maxlen = 8);
 
+	std_rand();
+    int safe_int();
+    std::string safe_string(int maxlen = 8);
+
+    int fast_int();
+    std::string fast_string(int maxlen = 8);
+
+private:
+    std::random_device m_rand_dev;
+    unsigned int n_rand_seed;
 };
 
 #endif // __STD_RAND_CLASS_H__

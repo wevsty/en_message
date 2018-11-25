@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Key_Exchange_Wizard</class>
+ <widget class="QWizard" name="Key_Exchange_Wizard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wizard</string>
+  </property>
+  <widget class="QWizardPage" name="wizardPage_Exchange_Tips">
+   <property name="subTitle">
+    <string>Exchange Key</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage_Create_Myself_Key_Pair">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTextEdit" name="textEdit_Myself_Public_Key_Display"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Create_Myself_Key_Pair">
+      <property name="text">
+       <string>Create Key</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Copy_Myself_Public_Key">
+      <property name="text">
+       <string>Copy</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage_Get_Other_Public_Key">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QTextEdit" name="textEdit_Other_Public_Key_Display"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Paste_Other_Public_Key">
+      <property name="text">
+       <string>Paste</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage_Save_Key">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_Key_Save_Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Key_Save_Browse">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
