@@ -1,4 +1,4 @@
-#include "qt_keyfile.h"
+﻿#include "qt_keyfile.h"
 
 //QString OpenKeyFileDialog(QWidget *parent = Q_NULLPTR)
 QString OpenKeyFileDialog(QWidget *parent)

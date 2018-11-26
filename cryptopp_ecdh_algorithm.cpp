@@ -1,4 +1,4 @@
-#include "cryptopp_ecdh_algorithm.h"
+﻿#include "cryptopp_ecdh_algorithm.h"
 
 ECDH_Algorithm::ECDH_Algorithm(): m_curve(CryptoPP::ASN1::secp256r1())
 {

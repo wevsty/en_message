@@ -1,4 +1,4 @@
-#include "os_clipboard.h"
+﻿#include "os_clipboard.h"
 
 void SetClipboard(const QString &input_str)
 {

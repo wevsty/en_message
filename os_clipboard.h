@@ -1,4 +1,4 @@
-#ifndef OS_CLIPBOARD_H
+﻿#ifndef OS_CLIPBOARD_H
 #define OS_CLIPBOARD_H
 
 #include <QApplication>

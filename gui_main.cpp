@@ -217,14 +217,14 @@ void MainWindow_UI::on_Button_Encrypt_Text_clicked()
     std::string str_encrypt_data = qstr_encrypt_data.toStdString();
     std::string str_encrypted_data;
     std::string str_iv;
+	std::string str_key = m_key_bytes.toStdString();
 
     AES_256_CFB_Algorithm alg;
-    std::string str_key = m_key_bytes.toStdString();
     alg.SetKey(str_key);
     alg.GenerateIv();
-    qDebug() << "enc key" << QByteArray::fromStdString(alg.GetIv());
+	str_iv = alg.GetIv();
     alg.EncryptString(str_encrypt_data,str_encrypted_data);
-    str_iv = alg.GetIv();
+    
 
     /*
     qDebug() << "enc key" << QByteArray::fromStdString(str_key);
@@ -235,6 +235,8 @@ void MainWindow_UI::on_Button_Encrypt_Text_clicked()
     QString qstr_output = QString("%1,%2").arg(QString::fromStdString(Cryptopp_Base64::encode(str_iv,false)))
                                           .arg(QString::fromStdString(Cryptopp_Base64::encode(str_encrypted_data,false)));
     ui->TextEdit_Cipher_Text->setText(qstr_output);
+
+	
 }
 
 void MainWindow_UI::on_Button_Decrypt_Text_clicked()

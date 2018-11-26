@@ -1,68 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 512 512"
-   version="1.1"
-   id="svg4"
-   sodipodi:docname="chk-clipboard.svg"
-   inkscape:export-filename="C:\Users\root\Desktop\chk-clipboard.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
-  <metadata
-     id="metadata10">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs8" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     id="namedview6"
-     showgrid="false"
-     inkscape:zoom="0.4609375"
-     inkscape:cx="35.79661"
-     inkscape:cy="360.13559"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
-  <path
-     d="m 392.07505,73.491526 h -74.51892 c -6.06048,-27.604 -27.43765,-34.983051 -52.87815,-34.983051 -25.44052,0 -46.81769,7.379051 -52.87817,34.983051 h -74.51892 c -20.02158,0 -36.39953,19.198 -36.39953,42.667004 v 314.665 c 0,23.469 16.37795,42.668 36.39953,42.668 h 254.79416 c 20.02158,0 36.39953,-19.199 36.39953,-42.668 v -314.665 c 0,-23.469004 -16.37795,-42.667004 -36.39953,-42.667004 z m -127.39707,0 c 10.00608,0 18.19933,9.599 18.19933,21.333 0,11.734004 -8.19325,21.334004 -18.19933,21.334004 -10.0061,0 -18.19935,-9.6 -18.19935,-21.334004 0,-11.734 8.19325,-21.333 18.19935,-21.333 z M 394.35028,433.49153 H 135.00566 v -320 h 34.12429 v 41.62712 H 360.226 v -41.62712 h 34.12428 z"
-     id="path2"
-     inkscape:connector-curvature="0"
-     style="stroke-width:0.92363811"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96"
-     sodipodi:nodetypes="scscsssssssssssssccccccccc" />
-  <path
-     inkscape:connector-curvature="0"
-     d="m 281.01363,335.77282 -8.95938,8.95938 28.8,28.8 64,-64 -8.95938,-8.95938 -55.04062,54.71876 z m 77.44062,12.15938 c 0,28.15938 -23.04092,51.2 -51.2,51.2 -28.15908,0 -51.2,-23.04062 -51.2,-51.2 0,-28.15938 23.04062,-51.2 51.2,-51.2 4.8,0 9.6,0.64062 14.08123,1.92031 l 9.91877,-9.92031 c -7.35938,-3.2 -15.35938,-4.8 -24,-4.8 -35.2,0 -64,28.8 -64,64 0,35.2 28.8,64 64,64 35.2,0 64,-28.8 64,-64 z"
-     id="path2-2"
-     style="stroke-width:0.30769232"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96"
-     sodipodi:nodetypes="ccccccccsssccssscc" />
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="130" width="130" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m82.435051,63.495537l0.042107,-0.028694l-2.723572,-4.282784c7.766869,-10.451962 8.809364,-24.975491 1.408829,-36.625715c-9.593002,-15.087753 -29.596802,-19.538912 -44.683601,-9.944987c-15.083235,9.588586 -19.548855,29.59139 -9.95487,44.688035c7.174841,11.279572 20.190908,16.608467 32.606108,14.566429l1.990978,3.140099l0.967247,0.211411l3.657719,-2.097588l-1.432129,6.464554l11.659256,2.592018l-1.389984,6.222748l8.936523,1.990021l-3.192902,14.369431l6.601646,1.46891l-1.990929,8.950851l19.416245,4.309669l3.559189,-15.927719l-25.477859,-40.066689zm-34.700985,-33.175686c-3.217045,2.047363 -7.480194,1.09437 -9.527618,-2.122656c-2.042919,-3.215296 -1.098938,-7.48386 2.117268,-9.527674s7.485626,-1.09269 9.523186,2.122625c2.051842,3.217125 1.0989,7.485678 -2.112835,9.527704z" stroke-width="6" stroke="#000" fill="#fff"/>
+ </g>
 </svg>

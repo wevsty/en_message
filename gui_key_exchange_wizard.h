@@ -1,4 +1,4 @@
-#ifndef KEY_EXCHANGE_WIZARD_H
+﻿#ifndef KEY_EXCHANGE_WIZARD_H
 #define KEY_EXCHANGE_WIZARD_H
 
 #include "cryptopp_ecdh_algorithm.h"

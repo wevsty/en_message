@@ -1,4 +1,4 @@
-#include "cryptopp_encoder.h"
+﻿#include "cryptopp_encoder.h"
 
 Cryptopp_Base64::Cryptopp_Base64()
 {

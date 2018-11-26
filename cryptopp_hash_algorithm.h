@@ -1,7 +1,10 @@
 ﻿#ifndef CRYPTOPP_HASH_ALGORITHM_H
 #define CRYPTOPP_HASH_ALGORITHM_H
 
+
 #include <string>
+
+#include "cryptopp_dll_init.h"
 #include "cryptopp/config.h"
 #include "cryptopp/filters.h"
 #include "cryptopp/files.h"

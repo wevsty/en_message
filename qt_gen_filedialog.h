@@ -1,4 +1,4 @@
-#ifndef QT_GEN_FILEDIALOG_H
+﻿#ifndef QT_GEN_FILEDIALOG_H
 #define QT_GEN_FILEDIALOG_H
 
 //qt_gen_filedialog.h

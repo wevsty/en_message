@@ -1,4 +1,4 @@
-#include "qt_gen_filedialog.h"
+﻿#include "qt_gen_filedialog.h"
 
 //QString GenOpenFileDialog(QWidget *parent = Q_NULLPTR)
 QString GenOpenFileDialog(QWidget *parent)

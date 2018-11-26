@@ -1,6 +1,5 @@
 ﻿#include "cryptopp_aes_algorithm.h"
 
-#include <QDebug>
 
 AES_256_CFB_Algorithm::AES_256_CFB_Algorithm()
 {

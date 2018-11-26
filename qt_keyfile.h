@@ -1,4 +1,4 @@
-#ifndef QT_KEYFILE_H
+﻿#ifndef QT_KEYFILE_H
 #define QT_KEYFILE_H
 
 #include <QDebug>
