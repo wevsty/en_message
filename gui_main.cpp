@@ -2,7 +2,7 @@
 #include "ui_gui_main.h"
 
 
-#define ENMESSAGE_VERSION ("1.1.0")
+#define ENMESSAGE_VERSION ("1.1.1")
 #define ENMESSAGE_BUILD_DATE (__DATE__)
 //#define MAX_KEY_BYTES_SIZE 32
 //#define MAX_IV_BYTES_SIZE 16

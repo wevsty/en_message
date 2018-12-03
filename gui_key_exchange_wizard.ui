@@ -6,21 +6,74 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>476</width>
+    <width>550</width>
     <height>425</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
-   <string>Wizard</string>
+   <string>Exchange Key Wizard</string>
   </property>
   <widget class="QWizardPage" name="wizardPage_Exchange_Tips">
-   <property name="subTitle">
-    <string>Exchange Key</string>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout"/>
+   <property name="title">
+    <string>Welcome</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_Page_Tips">
+    <item>
+     <widget class="QLabel" name="label_Wizard_Tips">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>This wizard will help you exchange security key. 
+Exchange key using ECDH/secp256k1 algorithm.
+
+You only need to copy the generated public key sent to the other people, and paste each other a public key to negotiate.
+
+If you close the wizard before you finish, please re-negotiate.
+</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QWizardPage" name="wizardPage_Create_Myself_Key_Pair">
-   <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="title">
+    <string>Create Key</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_Page_Create_Key_Pair">
     <item>
      <widget class="QTextEdit" name="textEdit_Myself_Public_Key_Display"/>
     </item>
@@ -41,7 +94,10 @@
    </layout>
   </widget>
   <widget class="QWizardPage" name="wizardPage_Get_Other_Public_Key">
-   <layout class="QVBoxLayout" name="verticalLayout_3">
+   <property name="title">
+    <string>Paste Key</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_Page_Get_Public_Key">
     <item>
      <widget class="QTextEdit" name="textEdit_Other_Public_Key_Display"/>
     </item>
@@ -55,7 +111,10 @@
    </layout>
   </widget>
   <widget class="QWizardPage" name="wizardPage_Save_Key">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="title">
+    <string>Save Shared Key</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_Page_Save_Key">
     <item>
      <widget class="QLineEdit" name="lineEdit_Key_Save_Path"/>
     </item>
