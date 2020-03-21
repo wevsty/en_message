@@ -6,21 +6,17 @@
 
 密钥交换功能采用Crypto++库中提供的ECDH算法（ECDH/secp256k1）进行密钥交换。
 
+如需要验证通讯双方身份，建议搭配GPG来使用。
+
 
 ## 编译依赖
 
-Qt 5.11.2
+Qt 5.14.1
 
-Crypto++ Library 7.0
+Crypto++ Library 8.2
 
+## 支持平台
+Windows Linux(需要自行编译)
 
-### Crypto++ Library Install
-
-On Ubuntu you can used apt install Crypto++
-```
-apt install libcrypto++-utils libcrypto++-dev
-```
-
-On Others
-
+### About Crypto++ Library
 plase vist https://www.cryptopp.com/
