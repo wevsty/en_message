@@ -1,10 +1,6 @@
 ﻿#ifndef __STD_RAND_CLASS_H__
 #define __STD_RAND_CLASS_H__
 
-#include <QObject>
-//#include <stdlib.h>
-//#include <stdio.h>
-//#include <time.h>
 #include <string>
 #include <random>
 

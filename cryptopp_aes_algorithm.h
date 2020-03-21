@@ -9,7 +9,7 @@
 #ifdef _MSC_VER
 #pragma  warning(push)
 #pragma  warning(disable:4251 4275 4101)
-#include "cryptopp_dll_init.h"
+//#include "cryptopp_dll_init.h"
 #endif
 
 #include "cryptopp/config.h"
@@ -27,7 +27,7 @@
 //#include "cryptopp/md5.h"
 
 /*----------------CryptoPP----------------*/
-
+#include "unused_macro.h"
 
 class AES_256_CFB_Algorithm
 {

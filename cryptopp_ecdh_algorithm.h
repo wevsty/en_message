@@ -1,7 +1,7 @@
 ﻿#ifndef EDCH_ALGORITHM_H
 #define EDCH_ALGORITHM_H
 
-#include "cryptopp_dll_init.h"
+//#include "cryptopp_dll_init.h"
 
 #include <string>
 using std::string;

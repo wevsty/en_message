@@ -1,9 +1,7 @@
 ﻿#include "gui_main.h"
 #include "ui_gui_main.h"
 
-
-#define ENMESSAGE_VERSION ("1.1.1")
-#define ENMESSAGE_BUILD_DATE (__DATE__)
+#include "program_version.h"
 //#define MAX_KEY_BYTES_SIZE 32
 //#define MAX_IV_BYTES_SIZE 16
 
@@ -27,7 +25,7 @@ MainWindow_UI::MainWindow_UI(QWidget *parent) :
 
 	QString qstr_statusbar_tip;
 	qstr_statusbar_tip.sprintf(
-		"Version : %s Build Date : %s"
+        "Version : %s | Build Date : %s"
 		, ENMESSAGE_VERSION
 		, ENMESSAGE_BUILD_DATE
 	);

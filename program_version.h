@@ -1,0 +1,7 @@
+#ifndef PROGRAM_VERSION_H
+#define PROGRAM_VERSION_H
+
+#define ENMESSAGE_VERSION ("1.2.0")
+#define ENMESSAGE_BUILD_DATE (__DATE__)
+
+#endif // PROGRAM_VERSION_H

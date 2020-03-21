@@ -37,6 +37,7 @@ SOURCES += \
     qt_gen_filedialog.cpp
 
 HEADERS += \
+    program_version.h \
     std_rand.h \
     cryptopp_ecdh_algorithm.h \
     gui_key_exchange_wizard.h \
@@ -46,13 +47,24 @@ HEADERS += \
     cryptopp_hash_algorithm.h \
     qt_keyfile.h \
     cryptopp_encoder.h \
-    qt_gen_filedialog.h
+    qt_gen_filedialog.h \
+    unused_macro.h
 
 FORMS += \
     gui_main.ui \
     gui_key_exchange_wizard.ui
 
-LIBS += -lcryptopp
+win32 {
+    RC_FILE += rc_version.rc
+
+    DEFINES += CRYPTOPP_DEFAULT_NO_DLL
+    INCLUDEPATH += E:\lib
+    Release:LIBS += E:\lib\cryptopp\x64\Output\Release\cryptlib.lib
+    Debug:LIBS += E:\lib\cryptopp\x64\Output\Debug\cryptlib.lib
+}
+unix {
+    LIBS += -lcryptopp
+}
 
 TRANSLATIONS += enmessage.ts
 

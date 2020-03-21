@@ -1,7 +1,7 @@
 ﻿#ifndef CRYPTOPP_MYSELF_CLASS_BASE64_H
 #define CRYPTOPP_MYSELF_CLASS_BASE64_H
 
-#include "cryptopp_dll_init.h"
+//#include "cryptopp_dll_init.h"
 
 #include <cstddef>
 #include <string>

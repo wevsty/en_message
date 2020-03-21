@@ -69,6 +69,7 @@ bool AES_256_CFB_Algorithm::EncryptString(const std::string &input_string, std::
     {
         //cerr << e.what() << endl;
         //exit(1);
+        UNUSED_VARIANT(e);
         return false;
     }
     catch(...)
@@ -93,6 +94,7 @@ bool AES_256_CFB_Algorithm::DecryptString(const std::string &input_string, std::
     {
         //cerr << e.what() << endl;
         //exit(1);
+        UNUSED_VARIANT(e);
         return false;
     }
     catch(...)
@@ -117,6 +119,7 @@ bool AES_256_CFB_Algorithm::EncryptFile(const std::string &input_string_path, co
     {
         //cerr << e.what() << endl;
         //exit(1);
+        UNUSED_VARIANT(e);
         return false;
     }
     catch(...)
@@ -141,6 +144,7 @@ bool AES_256_CFB_Algorithm::DecryptFile(const std::string &input_string_path, co
     {
         //cerr << e.what() << endl;
         //exit(1);
+        UNUSED_VARIANT(e);
         return false;
     }
     catch(...)
@@ -163,7 +167,10 @@ bool AES_256_CFB_Algorithm::EncryptProcessData(char *outString,size_t OutLength,
     {
         return false;
     }
-    m_encrypt_engine.ProcessData((CryptoPP::byte*)outString,(CryptoPP::byte*)inString,OutLength);
+    m_encrypt_engine.ProcessData(
+                reinterpret_cast<CryptoPP::byte*>(outString),
+                reinterpret_cast<const CryptoPP::byte*>(inString),
+                OutLength);
     return true;
 }
 
@@ -180,7 +187,10 @@ bool AES_256_CFB_Algorithm::DecryptProcessData(char *outString, size_t OutLength
     {
         return false;
     }
-    m_decrypt_engine.ProcessData((CryptoPP::byte*)outString,(CryptoPP::byte*)inString,OutLength);
+    m_decrypt_engine.ProcessData(
+                reinterpret_cast<CryptoPP::byte*>(outString),
+                reinterpret_cast<const CryptoPP::byte*>(inString),
+                OutLength);
     return true;
 }
 
