@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>546</width>
-    <height>628</height>
+    <width>454</width>
+    <height>633</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>0</width>
-    <height>0</height>
+    <width>320</width>
+    <height>520</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
   </property>
   <widget class="QWidget" name="centralwidget_Main">
    <property name="sizePolicy">
-    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
@@ -286,8 +286,8 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>24</width>
-        <height>24</height>
+        <width>36</width>
+        <height>36</height>
        </size>
       </property>
       <property name="font">
@@ -300,10 +300,16 @@
       </property>
       <widget class="QWidget" name="Crypto_Text_Tab">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
        </property>
        <attribute name="title">
         <string>Text</string>
@@ -588,6 +594,12 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="minimumSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
+       </property>
        <attribute name="title">
         <string>File</string>
        </attribute>
@@ -725,7 +737,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>546</width>
+     <width>454</width>
      <height>26</height>
     </rect>
    </property>
