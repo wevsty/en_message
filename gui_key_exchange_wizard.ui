@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>550</width>
-    <height>425</height>
+    <width>602</width>
+    <height>477</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -75,6 +75,13 @@ If you close the wizard before you finish, please re-negotiate.
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_Page_Create_Key_Pair">
     <item>
+     <widget class="QLabel" name="label_Create_Myself_Key_Pair_Tips">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;pre style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;/&gt;&lt;span style=&quot; font-family:'Courier New';&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New';&quot;&gt;lease create a public key and send it to another consumer.&lt;/span&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QTextEdit" name="textEdit_Myself_Public_Key_Display"/>
     </item>
     <item>
@@ -98,6 +105,13 @@ If you close the wizard before you finish, please re-negotiate.
     <string>Paste Key</string>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_Page_Get_Public_Key">
+    <item>
+     <widget class="QLabel" name="label_Get_Other_Public_Key_Tips">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;pre style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;/&gt;&lt;span style=&quot; font-family:'Courier New';&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New';&quot;&gt;lease paste the public key of another user.&lt;/span&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QTextEdit" name="textEdit_Other_Public_Key_Display"/>
     </item>
